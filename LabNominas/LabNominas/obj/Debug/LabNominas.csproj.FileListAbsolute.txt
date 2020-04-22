@@ -50,3 +50,5 @@ C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Pro
 C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Proyecto 4\LaboNominas\LaboratorioNominas\LabNominas\LabNominas\obj\Debug\CapaVistaFRM.mantenimiento_departamento.resources
 C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Proyecto 4\LaboNominas\LaboratorioNominas\LabNominas\LabNominas\obj\Debug\CapaVistaFRM.mantenimiento_empleado.resources
 C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Proyecto 4\LaboNominas\LaboratorioNominas\LabNominas\LabNominas\obj\Debug\CapaVistaFRM.mantenimiento_puesto.resources
+C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Proyecto 4\LaboNominas\LaboratorioNominas\LabNominas\LabNominas\obj\Debug\CapaVistaFRM.nominaEncab.resources
+C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Proyecto 4\LaboNominas\LaboratorioNominas\LabNominas\LabNominas\obj\Debug\CapaVistaFRM.transEncab.resources

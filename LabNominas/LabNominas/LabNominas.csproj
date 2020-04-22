@@ -55,6 +55,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="conexion.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,6 +92,18 @@
     <Compile Include="MDI_nomina.Designer.cs">
       <DependentUpon>MDI_nomina.cs</DependentUpon>
     </Compile>
+    <Compile Include="transEncab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="transEncab.Designer.cs">
+      <DependentUpon>transEncab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nominaEncab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nominaEncab.Designer.cs">
+      <DependentUpon>nominaEncab.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="mantenimiento_puesto.resx">
@@ -107,6 +120,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MDI_nomina.resx">
       <DependentUpon>MDI_nomina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="transEncab.resx">
+      <DependentUpon>transEncab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nominaEncab.resx">
+      <DependentUpon>nominaEncab.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

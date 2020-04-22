@@ -117,12 +117,14 @@
             this.nominaToolStripMenuItem.Name = "nominaToolStripMenuItem";
             this.nominaToolStripMenuItem.Size = new System.Drawing.Size(245, 24);
             this.nominaToolStripMenuItem.Text = "Nomina";
+            this.nominaToolStripMenuItem.Click += new System.EventHandler(this.NominaToolStripMenuItem_Click);
             // 
             // transferenciaBancariaToolStripMenuItem
             // 
             this.transferenciaBancariaToolStripMenuItem.Name = "transferenciaBancariaToolStripMenuItem";
             this.transferenciaBancariaToolStripMenuItem.Size = new System.Drawing.Size(245, 24);
             this.transferenciaBancariaToolStripMenuItem.Text = "Transferencia Bancaria";
+            this.transferenciaBancariaToolStripMenuItem.Click += new System.EventHandler(this.TransferenciaBancariaToolStripMenuItem_Click);
             // 
             // seguridadToolStripMenuItem
             // 
