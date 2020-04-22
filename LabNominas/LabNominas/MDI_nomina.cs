@@ -84,12 +84,11 @@ namespace CapaVistaFRM
         }
         
         private void MDI_FRM_Load(object sender, EventArgs e)
-        {            
-            /*
+        {                        
             frm_login login = new frm_login();
             login.ShowDialog();
             Lbl_usuario.Text = login.obtenerNombreUsuario();
-            usuarioActivo = Lbl_usuario.Text; */      
+            usuarioActivo = Lbl_usuario.Text; 
         } 
 
         private void SeguridadToolStripMenuItem_Click(object sender, EventArgs e)
