@@ -1,0 +1,17 @@
+C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Proyecto 4\LaboNominas\LaboratorioNominas\LabNominas\LabNominas\obj\Debug\LabNominas.csprojAssemblyReference.cache
+C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Proyecto 4\LaboNominas\LaboratorioNominas\LabNominas\LabNominas\obj\Debug\CapaVistaFRM.MDI_nomina.resources
+C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Proyecto 4\LaboNominas\LaboratorioNominas\LabNominas\LabNominas\obj\Debug\LabNominas.Properties.Resources.resources
+C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Proyecto 4\LaboNominas\LaboratorioNominas\LabNominas\LabNominas\obj\Debug\LabNominas.csproj.GenerateResource.cache
+C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Proyecto 4\LaboNominas\LaboratorioNominas\LabNominas\LabNominas\obj\Debug\LabNominas.csproj.CoreCompileInputs.cache
+C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Proyecto 4\LaboNominas\LaboratorioNominas\LabNominas\LabNominas\bin\Debug\LabNominas.exe.config
+C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Proyecto 4\LaboNominas\LaboratorioNominas\LabNominas\LabNominas\bin\Debug\LabNominas.exe
+C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Proyecto 4\LaboNominas\LaboratorioNominas\LabNominas\LabNominas\bin\Debug\LabNominas.pdb
+C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Proyecto 4\LaboNominas\LaboratorioNominas\LabNominas\LabNominas\bin\Debug\CapaDatos.dll
+C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Proyecto 4\LaboNominas\LaboratorioNominas\LabNominas\LabNominas\bin\Debug\CapaDiseno.dll
+C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Proyecto 4\LaboNominas\LaboratorioNominas\LabNominas\LabNominas\bin\Debug\CapaLogica.dll
+C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Proyecto 4\LaboNominas\LaboratorioNominas\LabNominas\LabNominas\bin\Debug\CapaDatos.pdb
+C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Proyecto 4\LaboNominas\LaboratorioNominas\LabNominas\LabNominas\bin\Debug\CapaDiseno.pdb
+C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Proyecto 4\LaboNominas\LaboratorioNominas\LabNominas\LabNominas\bin\Debug\CapaLogica.pdb
+C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Proyecto 4\LaboNominas\LaboratorioNominas\LabNominas\LabNominas\obj\Debug\LabNominas.csproj.CopyComplete
+C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Proyecto 4\LaboNominas\LaboratorioNominas\LabNominas\LabNominas\obj\Debug\LabNominas.exe
+C:\Users\Randy\Desktop\UMG\9.no Semestre\Ingeniería de Software\2do Parcial\Proyecto 4\LaboNominas\LaboratorioNominas\LabNominas\LabNominas\obj\Debug\LabNominas.pdb
