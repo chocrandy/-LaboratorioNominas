@@ -36,6 +36,9 @@
     <Reference Include="CapaDatos">
       <HintPath>..\..\..\..\..\Proyecto 2\Software\DLLS\Seguridad\CapaDatos\bin\Debug\CapaDatos.dll</HintPath>
     </Reference>
+    <Reference Include="CapaDeDiseno">
+      <HintPath>..\..\..\..\..\Proyecto 2\Software\DLLS\Navegador\CapaDeDiseno\bin\Debug\CapaDeDiseno.dll</HintPath>
+    </Reference>
     <Reference Include="CapaDiseno">
       <HintPath>..\..\..\..\..\Proyecto 2\Software\DLLS\Seguridad\CapaDiseno\bin\Debug\CapaDiseno.dll</HintPath>
     </Reference>
@@ -58,6 +61,30 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="mantenimiento_puesto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mantenimiento_puesto.Designer.cs">
+      <DependentUpon>mantenimiento_puesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mantenimiento_empleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mantenimiento_empleado.Designer.cs">
+      <DependentUpon>mantenimiento_empleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mantenimiento_departamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mantenimiento_departamento.Designer.cs">
+      <DependentUpon>mantenimiento_departamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mantenimiento_concepto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mantenimiento_concepto.Designer.cs">
+      <DependentUpon>mantenimiento_concepto.cs</DependentUpon>
+    </Compile>
     <Compile Include="MDI_nomina.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -66,6 +93,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="mantenimiento_puesto.resx">
+      <DependentUpon>mantenimiento_puesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mantenimiento_empleado.resx">
+      <DependentUpon>mantenimiento_empleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mantenimiento_departamento.resx">
+      <DependentUpon>mantenimiento_departamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mantenimiento_concepto.resx">
+      <DependentUpon>mantenimiento_concepto.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MDI_nomina.resx">
       <DependentUpon>MDI_nomina.cs</DependentUpon>
     </EmbeddedResource>
