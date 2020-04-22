@@ -19,6 +19,8 @@ namespace CapaVistaFRM
         private mantenimiento_departamento frm_mantenimiento_departamento;
         private mantenimiento_empleado frm_mantenimiento_empleado;
         private mantenimiento_puesto frm_mantenimiento_puesto;
+        private nominaEncab frm_nominaEncab;
+        private transEncab frm_transEncab;
 
         //sentencia sn = new sentencia();
         String usuarioActivo = "rchocm";
@@ -38,7 +40,11 @@ namespace CapaVistaFRM
         private void frm_mantenimiento_empleado_FormClosed(Object sender, FormClosedEventArgs e)
         { frm_mantenimiento_empleado = null; }
         private void frm_mantenimiento_puesto_FormClosed(Object sender, FormClosedEventArgs e)
-        { frm_mantenimiento_puesto = null; }        
+        { frm_mantenimiento_puesto = null; }
+        private void frm_nominaEncab_FormClosed(Object sender, FormClosedEventArgs e)
+        { frm_nominaEncab = null; }
+        private void frm_transEncab_FormClosed(Object sender, FormClosedEventArgs e)
+        { frm_transEncab = null; }        
 
         //====================Funciones de declaración de Eventos====================
 
@@ -240,6 +246,39 @@ namespace CapaVistaFRM
             else
             {
                 frm_mantenimiento_puesto.Activate();
+            }
+        }
+
+        private void NominaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //NOMINA            
+            if (frm_nominaEncab == null)
+            {
+                frm_nominaEncab = new nominaEncab();
+                frm_nominaEncab.MdiParent = this;
+                frm_nominaEncab.FormClosed += new FormClosedEventHandler(frm_nominaEncab_FormClosed);
+                frm_nominaEncab.Show();
+            }
+            else
+            {
+                frm_nominaEncab.Activate();
+            }
+        }
+
+        private void TransferenciaBancariaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //TRANSFERENCIA
+            //transEncab
+            if (frm_transEncab == null)
+            {
+                frm_transEncab = new transEncab();
+                frm_transEncab.MdiParent = this;
+                frm_transEncab.FormClosed += new FormClosedEventHandler(frm_transEncab_FormClosed);
+                frm_transEncab.Show();
+            }
+            else
+            {
+                frm_transEncab.Activate();
             }
         }
     }
