@@ -13,49 +13,33 @@ using CapaDatos;
 namespace CapaVistaFRM
 {
     public partial class MDI_nomina : Form
-    { 
-        /*
-        private mantenimiento_material frm_mantenimiento_material;
-        private mantenimiento_cliente frm_mantenimiento_cliente;
+    {
+        //mantenimiento_concepto
+        private mantenimiento_concepto frm_mantenimiento_concepto;
+        private mantenimiento_departamento frm_mantenimiento_departamento;
         private mantenimiento_empleado frm_mantenimiento_empleado;
-        private mantenimiento_mora frm_mantenimiento_mora;
-        private mantenimiento_categoria frm_mantenimiento_categoria;
-        private mantenimiento_bono frm_mantenimiento_bono;
-        private renta_encab frm_renta_encab;
-        private consulta_renta frm_consulta_renta;
-        private devoluciones frm_devoluciones; */
+        private mantenimiento_puesto frm_mantenimiento_puesto;
 
         //sentencia sn = new sentencia();
-        String usuarioActivo = "";
+        String usuarioActivo = "rchocm";
 
         public MDI_nomina()
         {
             InitializeComponent();
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-
+            
         }
-        
+
         //==========Funciones para evitar que se habrá 2 veces la misma ventana==========          
-        /*
-        private void frm_mantenimiento_material_FormClosed(Object sender, FormClosedEventArgs e)
-        { frm_mantenimiento_material = null; }
-        private void frm_mantenimiento_cliente_FormClosed(Object sender, FormClosedEventArgs e)
-        { frm_mantenimiento_cliente = null; }
+        private void frm_mantenimiento_concepto_FormClosed(Object sender, FormClosedEventArgs e)
+        { frm_mantenimiento_concepto = null; }
+        private void frm_mantenimiento_departamento_FormClosed(Object sender, FormClosedEventArgs e)
+        { frm_mantenimiento_departamento = null; }
         private void frm_mantenimiento_empleado_FormClosed(Object sender, FormClosedEventArgs e)
-        { frm_mantenimiento_empleado = null; } 
-        private void frm_mantenimiento_mora_FormClosed(Object sender, FormClosedEventArgs e)
-        { frm_mantenimiento_mora = null; }
-        private void frm_mantenimiento_categoria_FormClosed(Object sender, FormClosedEventArgs e)
-        { frm_mantenimiento_categoria = null; }
-        private void frm_mantenimiento_bono_FormClosed(Object sender, FormClosedEventArgs e)
-        { frm_mantenimiento_bono = null; }
-        private void frm_renta_encab_FormClosed(Object sender, FormClosedEventArgs e)
-        { frm_renta_encab = null; }
-        private void frm_consulta_renta_FormClosed(Object sender, FormClosedEventArgs e)
-        { frm_consulta_renta = null; }
-        private void frm_devoluciones_FormClosed(Object sender, FormClosedEventArgs e)
-        { frm_devoluciones = null; } */
-        
+        { frm_mantenimiento_empleado = null; }
+        private void frm_mantenimiento_puesto_FormClosed(Object sender, FormClosedEventArgs e)
+        { frm_mantenimiento_puesto = null; }        
+
         //====================Funciones de declaración de Eventos====================
 
         private void ConciliaciónBancariaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -103,11 +87,10 @@ namespace CapaVistaFRM
         } 
 
         private void SeguridadToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            /* 
+        {            
             MDI_Seguridad seguridad = new MDI_Seguridad(Lbl_usuario.Text);
             seguridad.lbl_nombreUsuario.Text = Lbl_usuario.Text;
-            seguridad.ShowDialog(); */
+            seguridad.ShowDialog();
         }
 
         private void Btn_prueba_Click(object sender, EventArgs e)
@@ -158,19 +141,7 @@ namespace CapaVistaFRM
 
         private void ClienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //CLIENTE
-            /*
-            if (frm_mantenimiento_cliente == null)
-            {
-                frm_mantenimiento_cliente = new mantenimiento_cliente(usuarioActivo);
-                frm_mantenimiento_cliente.MdiParent = this;
-                frm_mantenimiento_cliente.FormClosed += new FormClosedEventHandler(frm_mantenimiento_cliente_FormClosed);
-                frm_mantenimiento_cliente.Show();
-            }
-            else
-            {
-                frm_mantenimiento_cliente.Activate();
-            } */
+            
         }
 
         private void EmpleadoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -195,7 +166,18 @@ namespace CapaVistaFRM
 
         private void BonoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            
+            //CONCEPTO            
+            if (frm_mantenimiento_concepto == null)
+            {
+                frm_mantenimiento_concepto = new mantenimiento_concepto(usuarioActivo);
+                frm_mantenimiento_concepto.MdiParent = this;
+                frm_mantenimiento_concepto.FormClosed += new FormClosedEventHandler(frm_mantenimiento_concepto_FormClosed);
+                frm_mantenimiento_concepto.Show();
+            }
+            else
+            {
+                frm_mantenimiento_concepto.Activate();
+            }
         }
 
         private void RentaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -211,6 +193,54 @@ namespace CapaVistaFRM
         private void DevolucionesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void DepartamentoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //DEPARTAMENTO            
+            if (frm_mantenimiento_departamento == null)
+            {
+                frm_mantenimiento_departamento = new mantenimiento_departamento(usuarioActivo);
+                frm_mantenimiento_departamento.MdiParent = this;
+                frm_mantenimiento_departamento.FormClosed += new FormClosedEventHandler(frm_mantenimiento_departamento_FormClosed);
+                frm_mantenimiento_departamento.Show();
+            }
+            else
+            {
+                frm_mantenimiento_departamento.Activate();
+            }
+        }
+
+        private void EmpleadoToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            //EMPLEADO            
+            if (frm_mantenimiento_empleado == null)
+            {
+                frm_mantenimiento_empleado = new mantenimiento_empleado(usuarioActivo);
+                frm_mantenimiento_empleado.MdiParent = this;
+                frm_mantenimiento_empleado.FormClosed += new FormClosedEventHandler(frm_mantenimiento_empleado_FormClosed);
+                frm_mantenimiento_empleado.Show();
+            }
+            else
+            {
+                frm_mantenimiento_empleado.Activate();
+            }
+        }
+
+        private void PuestoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //PUESTO            
+            if (frm_mantenimiento_puesto == null)
+            {
+                frm_mantenimiento_puesto = new mantenimiento_puesto(usuarioActivo);
+                frm_mantenimiento_puesto.MdiParent = this;
+                frm_mantenimiento_puesto.FormClosed += new FormClosedEventHandler(frm_mantenimiento_puesto_FormClosed);
+                frm_mantenimiento_puesto.Show();
+            }
+            else
+            {
+                frm_mantenimiento_puesto.Activate();
+            }
         }
     }
 }

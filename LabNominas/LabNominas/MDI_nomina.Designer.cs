@@ -33,14 +33,14 @@
             this.inicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.mantenimientosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bonoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contabilidadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.seguridadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.Lbl_usuario = new System.Windows.Forms.Label();
             this.departamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.empleadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.puestoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.contabilidadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nominaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.transferenciaBancariaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.seguridadToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.Lbl_usuario = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -82,6 +82,27 @@
             this.bonoToolStripMenuItem.Text = "Concepto";
             this.bonoToolStripMenuItem.Click += new System.EventHandler(this.BonoToolStripMenuItem_Click);
             // 
+            // departamentoToolStripMenuItem
+            // 
+            this.departamentoToolStripMenuItem.Name = "departamentoToolStripMenuItem";
+            this.departamentoToolStripMenuItem.Size = new System.Drawing.Size(186, 24);
+            this.departamentoToolStripMenuItem.Text = "Departamento";
+            this.departamentoToolStripMenuItem.Click += new System.EventHandler(this.DepartamentoToolStripMenuItem_Click);
+            // 
+            // empleadoToolStripMenuItem
+            // 
+            this.empleadoToolStripMenuItem.Name = "empleadoToolStripMenuItem";
+            this.empleadoToolStripMenuItem.Size = new System.Drawing.Size(186, 24);
+            this.empleadoToolStripMenuItem.Text = "Empleado";
+            this.empleadoToolStripMenuItem.Click += new System.EventHandler(this.EmpleadoToolStripMenuItem_Click_1);
+            // 
+            // puestoToolStripMenuItem
+            // 
+            this.puestoToolStripMenuItem.Name = "puestoToolStripMenuItem";
+            this.puestoToolStripMenuItem.Size = new System.Drawing.Size(186, 24);
+            this.puestoToolStripMenuItem.Text = "Puesto";
+            this.puestoToolStripMenuItem.Click += new System.EventHandler(this.PuestoToolStripMenuItem_Click);
+            // 
             // contabilidadToolStripMenuItem
             // 
             this.contabilidadToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -90,6 +111,18 @@
             this.contabilidadToolStripMenuItem.Name = "contabilidadToolStripMenuItem";
             this.contabilidadToolStripMenuItem.Size = new System.Drawing.Size(87, 24);
             this.contabilidadToolStripMenuItem.Text = "Procesos";
+            // 
+            // nominaToolStripMenuItem
+            // 
+            this.nominaToolStripMenuItem.Name = "nominaToolStripMenuItem";
+            this.nominaToolStripMenuItem.Size = new System.Drawing.Size(245, 24);
+            this.nominaToolStripMenuItem.Text = "Nomina";
+            // 
+            // transferenciaBancariaToolStripMenuItem
+            // 
+            this.transferenciaBancariaToolStripMenuItem.Name = "transferenciaBancariaToolStripMenuItem";
+            this.transferenciaBancariaToolStripMenuItem.Size = new System.Drawing.Size(245, 24);
+            this.transferenciaBancariaToolStripMenuItem.Text = "Transferencia Bancaria";
             // 
             // seguridadToolStripMenuItem
             // 
@@ -109,36 +142,6 @@
             this.Lbl_usuario.TabIndex = 2;
             this.Lbl_usuario.Text = "Usuario";
             this.Lbl_usuario.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // departamentoToolStripMenuItem
-            // 
-            this.departamentoToolStripMenuItem.Name = "departamentoToolStripMenuItem";
-            this.departamentoToolStripMenuItem.Size = new System.Drawing.Size(186, 24);
-            this.departamentoToolStripMenuItem.Text = "Departamento";
-            // 
-            // empleadoToolStripMenuItem
-            // 
-            this.empleadoToolStripMenuItem.Name = "empleadoToolStripMenuItem";
-            this.empleadoToolStripMenuItem.Size = new System.Drawing.Size(186, 24);
-            this.empleadoToolStripMenuItem.Text = "Empleado";
-            // 
-            // puestoToolStripMenuItem
-            // 
-            this.puestoToolStripMenuItem.Name = "puestoToolStripMenuItem";
-            this.puestoToolStripMenuItem.Size = new System.Drawing.Size(186, 24);
-            this.puestoToolStripMenuItem.Text = "Puesto";
-            // 
-            // nominaToolStripMenuItem
-            // 
-            this.nominaToolStripMenuItem.Name = "nominaToolStripMenuItem";
-            this.nominaToolStripMenuItem.Size = new System.Drawing.Size(245, 24);
-            this.nominaToolStripMenuItem.Text = "Nomina";
-            // 
-            // transferenciaBancariaToolStripMenuItem
-            // 
-            this.transferenciaBancariaToolStripMenuItem.Name = "transferenciaBancariaToolStripMenuItem";
-            this.transferenciaBancariaToolStripMenuItem.Size = new System.Drawing.Size(245, 24);
-            this.transferenciaBancariaToolStripMenuItem.Text = "Transferencia Bancaria";
             // 
             // MDI_nomina
             // 
